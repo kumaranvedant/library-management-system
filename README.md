@@ -14,7 +14,7 @@
 -   Similarly to use the elements insie the table ```books_issued``` run the code: ``` select * from books_issued;``
 -   if you want to run the code you will need to run : main.py
 -   as soon as you run ```main.py``` the UI will popup then as as soon as you add a book by filling the information(case sensitive), you can now get to the CLI of MYSql and run: ``` select * from books;``` and this will display if you have added any book into the database.
-# desugn choices made
+# design choices made
 - The system follows a modular design to improve maintainability and scalability. 
 - The project uses Object-Oriented Programming (OOP) principles to model real-world entities like books, users, and transactions.
 - A relational database is chosen for its ability to handle relationships between books, users, and transactions efficiently.
